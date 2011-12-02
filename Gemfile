@@ -28,6 +28,7 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'webrat'
+  gem 'spork', '0.9.0.rc8'
 end
 
 gem 'jquery-rails'
