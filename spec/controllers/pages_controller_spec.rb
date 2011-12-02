@@ -8,7 +8,7 @@ describe PagesController do
       get 'home'
       response.should be_success
 	  response.should have_selector("title",
-				:content => "Ruby on Rails Tutorial Sample App | Home")
+				:content => "Home")
     end
   end
 
