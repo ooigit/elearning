@@ -11,12 +11,12 @@ header {
 }
 
 header img {
-	padding: lem;
+	padding: 1em;
 	background: #fff;
 }
 
 section {
-	margin-top: lem;
+	margin-top: 1em;
 	font-size: 120%;
 	padding: 20px;
 	background: #fff;
@@ -112,4 +112,26 @@ footer nav {
 	float: none;
 }
 
+/* User show page */
 
+table.profile {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+td.main {
+	width: 70%;
+	padding: 1em;
+}
+
+td.sidebar {
+	width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+
+.profile img.gravatar {
+	border: 1px solid #999;
+	maring-bottom: -15px;
+}
